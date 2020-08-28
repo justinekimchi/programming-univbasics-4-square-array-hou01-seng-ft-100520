@@ -11,14 +11,16 @@
 #new_array
 
 
+#def square_array(numbers)
+#  count = 0
+#  new_array=[]
+#  while count < numbers.length
+#    numbers.index ** 2 
+#    count+=1
+#  end
+#  square_array(numbers)
+#end 
+
 def square_array(numbers)
-  count = 0
-  new_array=[]
-  while count < numbers.length
-    numbers.index ** 2 
-    count+=1
-  end
-  square_array(numbers)
+    numbers.map { |e| e ** 2 }
 end 
-
-
